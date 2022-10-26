@@ -6,7 +6,7 @@ def butten_clecked():
     btn.pack()
 def clecked():
     var=ent.get()
-    mess=messagebox.showinfo("message",var)
+    messagebox.showinfo("message",var)
 def clear():
     ent.delete(0,END)
     clr=Label(window)
